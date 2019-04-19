@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 //            public void handleMessage(Message msg) {
 //                super.handleMessage(msg);
 //                //获得刚才发送的Message对象，然后在这里进行UI操作
-//                Log.e("MainActivity", "------------> msg.what = " + msg.what);
+//                Log.e("TestThreadMethodActivity1", "------------> msg.what = " + msg.what);
 //            }
 //        };
 //
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 //                Message message = new Message();
 //                message.what = 123;
 //                mHandler.sendMessage(message);
-//                Log.e("MainActivity", "mHandler");
+//                Log.e("TestThreadMethodActivity1", "mHandler");
 //            }
 //        }).start();
 //        //消息循环
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 //        Future future = executorService.submit(callable);
 //        if (future.isDone()) {//判断是否完成
 //            try {
-//                Log.d("MainActivity", "获取工作线程完成后的数据" + future.get());
+//                Log.d("TestThreadMethodActivity1", "获取工作线程完成后的数据" + future.get());
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            } catch (ExecutionException e) {
